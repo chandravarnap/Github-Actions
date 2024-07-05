@@ -21,7 +21,7 @@ jobs:
           python-version: ${{matrix.python-version}}
       - name: install dependencies
         run: | 
-          python -m pipinstall --upgrade pip
+          python -m pip install --upgrade pip
           pip install pytest
       
         
